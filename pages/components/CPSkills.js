@@ -23,7 +23,6 @@ function CPSkills() {
     <>
       <div className={styles.main}>
         <form onSubmit={addSkill}>
-          <h1 className="text-3xl font-bold underline">tailwind</h1>
           <div className={styles.skill}>
             <input
               value={skill}

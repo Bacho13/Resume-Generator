@@ -15,7 +15,7 @@ function CPAbout() {
           rows="10"
           cols="60"
           onChange={(e) => dispatch(addAbout(e.target.value))}
-          maxlength="600"
+          maxLength="600"
         />
       </div>
     </>
