@@ -35,6 +35,13 @@ $lightGray: #afb0b1;
   background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
 }
 .uploadButton {
+  background-color: $lightBlue;
+  color: white;
   padding: 10px;
+  border-radius: 10px;
+  white-space: nowrap;
   cursor: pointer;
+}
+.uploadButton:hover {
+  background-color: $blue;
 }
