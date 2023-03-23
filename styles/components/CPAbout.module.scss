@@ -1,0 +1,23 @@
+$blue: #3b7cb5;
+$lightBlue: #36a0c6;
+$gray: #36a0c6;
+$lightGray: #afb0b1;
+
+.main {
+  border: 3px solid $blue;
+  border-radius: 30px;
+  padding: 15px;
+  width: 55%;
+  h1 {
+    margin: 10px 0;
+    color: $lightBlue;
+    font-size: 15px;
+  }
+}
+.textarea {
+  padding: 5px;
+  width: 100%;
+}
+.textarea:focus {
+  outline: none;
+}

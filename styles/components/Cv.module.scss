@@ -1,0 +1,31 @@
+$blue: #3b7cb5;
+$lightBlue: #36a0c6;
+$gray: #36a0c6;
+$lightGray: #afb0b1;
+
+.main {
+  width: 750px;
+  height: 950px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+  z-index: -2;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.leftSide {
+  width: 35%;
+  background-color: $blue;
+}
+.rightSide {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

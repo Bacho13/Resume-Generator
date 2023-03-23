@@ -1,0 +1,31 @@
+$blue: #3b7cb5;
+$lightBlue: #36a0c6;
+$darkBlue: #3a4e63;
+$lightGray: #afb0b1;
+
+.NameCont {
+  margin-top: 60px;
+}
+
+.name {
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  color: $darkBlue;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+.surname {
+  font-family: "Lato", sans-serif;
+  font-size: 45px;
+  color: $lightBlue;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-weight: 900;
+}
+.prof {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: $darkBlue;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}

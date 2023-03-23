@@ -1,0 +1,40 @@
+$blue: #3b7cb5;
+$lightBlue: #36a0c6;
+$gray: #36a0c6;
+$lightGray: #afb0b1;
+
+.adminPanel {
+  margin-left: 20px;
+  background-color: #2d3436;
+  padding: 20px;
+  width: 50%;
+  height: 100vh;
+  overflow-x: scroll;
+}
+.customInput {
+  color: transparent;
+}
+.customInput::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.customInput::before {
+  content: "აარჩიე პროფილის სურათი";
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  background-color: $lightBlue;
+}
+.customInput:hover::before {
+  background-color: $blue;
+}
+.customInput:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+.uploadButton {
+  padding: 10px;
+  cursor: pointer;
+}

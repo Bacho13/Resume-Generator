@@ -1,0 +1,26 @@
+$blue: #3b7cb5;
+$lightBlue: #36a0c6;
+$gray: #36a0c6;
+$lightGray: #afb0b1;
+
+.main {
+  width: 100%;
+  padding: 0 20px;
+  height: 200px;
+  font-family: "Lato", sans-serif;
+  margin-top: 50px;
+
+  h1 {
+    font-size: 17px;
+    color: $lightBlue;
+    font-weight: 900;
+  }
+  p {
+    margin-top: 20px;
+    font-size: 13px;
+    width: 450px;
+    max-height: 170px;
+    line-height: 15px;
+    word-wrap: break-word;
+  }
+}

@@ -1,0 +1,30 @@
+$blue: #3b7cb5;
+$lightBlue: #36a0c6;
+$gray: #36a0c6;
+$lightGray: #afb0b1;
+
+.main {
+  width: 90%;
+  margin: 20px auto;
+
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  h1 {
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+}
+.innerContent {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.icon {
+  margin-right: 10px;
+}

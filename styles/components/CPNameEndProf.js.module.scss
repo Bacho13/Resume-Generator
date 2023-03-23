@@ -1,0 +1,26 @@
+$blue: #3b7cb5;
+$lightBlue: #36a0c6;
+$darkBlue: #3a4e63;
+$lightGray: #afb0b1;
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 15px 0;
+  padding: 15px;
+  outline: 2px solid $blue;
+  border-radius: 30px;
+  p {
+    color: #36a0c6;
+  }
+  input {
+    margin: 15px 0;
+    height: 30px;
+    padding: 0 10px;
+    border: none;
+  }
+  input:focus {
+    outline: 3px solid $blue;
+  }
+}
