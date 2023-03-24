@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import styles from "../../styles/components/CPContactSection.module.scss";
-import { addPhone, addEmail, addAddress } from "../Redux/infoSlice";
+import { addPhone, addEmail, addAddress } from "../../Redux/infoSlice";
 
 function CPContactSection() {
   const dispatch = useDispatch();

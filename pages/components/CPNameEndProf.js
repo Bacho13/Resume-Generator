@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import styles from "../../styles/components/CPNameEndProf.js.module.scss";
-import { addName, addSurname, addProf } from "../Redux/infoSlice";
+import { addName, addSurname, addProf } from "../../Redux/infoSlice";
 
 function CPNameEndProf() {
   const dispatch = useDispatch();

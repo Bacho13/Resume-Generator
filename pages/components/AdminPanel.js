@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import styles from "../../styles/components/AdminPanel.module.scss";
 import { useDispatch, useSelector } from "react-redux";
-import { addPhoto } from "../Redux/infoSlice";
+import { addPhoto } from "../../Redux/infoSlice";
 import CPNameEndProf from "./CPNameEndProf";
 import CPAbout from "./CPAbout";
 import CPContactSection from "./CPContactSection.js";

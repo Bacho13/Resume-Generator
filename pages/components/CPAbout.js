@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import styles from "../../styles/components/CPAbout.module.scss";
-import { addAbout } from "../Redux/infoSlice";
+import { addAbout } from "../../Redux/infoSlice";
 function CPAbout() {
   const dispatch = useDispatch();
 

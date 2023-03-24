@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import styles from "../../styles/components/CPPersonalInfo.module.scss";
-import { addBDay, addNationality, addLangs } from "../Redux/infoSlice";
+import { addBDay, addNationality, addLangs } from "../../Redux/infoSlice";
 function CPPersonalInfo() {
   const dispatch = useDispatch();
   return (

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import styles from "../../styles/components/CPSkills.module.scss";
-import { addSkills, deletSkill } from "../Redux/infoSlice";
+import { addSkills, deletSkill } from "../../Redux/infoSlice";
 
 function CPSkills() {
   // const [skillVal, setSkillVal] = useState("");

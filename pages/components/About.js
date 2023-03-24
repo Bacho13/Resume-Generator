@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import styles from "../../styles/components/About.module.scss";
-import { addAbout } from "../Redux/infoSlice";
+import { addAbout } from "../../Redux/infoSlice";
 function About() {
   const about = useSelector((state) => state.info.about);
   return (

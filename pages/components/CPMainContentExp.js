@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import styles from "../../styles/components/CPMainContentExp.module.scss";
-import { addExp, deletExp } from "../Redux/infoSlice";
+import { addExp, deletExp } from "../../Redux/infoSlice";
 import { nanoid } from "nanoid";
 import { useDispatch } from "react-redux";
 
