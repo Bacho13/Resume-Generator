@@ -4,8 +4,6 @@ import styles from "../../styles/components/MainContent.module.scss";
 
 function MainContent({ eduOrExpo, header }) {
   const section = eduOrExpo;
-  console.log(section);
-
   return (
     <>
       <div className={styles.main}>
