@@ -14,19 +14,19 @@ function CPNameEndProf() {
           type="text"
           placeholder="სახელი"
           onChange={(e) => dispatch(addName(e.target.value))}
-          maxlength="15"
+          maxLength="15"
         />
         <input
           type="text"
           placeholder="გვარი"
           onChange={(e) => dispatch(addSurname(e.target.value))}
-          maxlength="15"
+          maxLength="15"
         />
         <input
           type="text"
           placeholder="პროფესია"
           onChange={(e) => dispatch(addProf(e.target.value))}
-          maxlength="15"
+          maxLength="15"
         />
       </div>
     </>

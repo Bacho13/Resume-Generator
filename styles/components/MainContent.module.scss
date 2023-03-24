@@ -1,0 +1,56 @@
+$blue: #3b7cb5;
+$lightBlue: #36a0c6;
+$gray: #36a0c6;
+$lightGray: #afb0b1;
+
+.main {
+  width: 100%;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  padding: 0 20px;
+  padding-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 0;
+  p {
+    font-size: 17px;
+    color: $lightBlue;
+    font-weight: 900;
+    margin-right: 10px;
+  }
+}
+.dotDecor {
+  width: 100%;
+  border-bottom: 5px dotted gray;
+}
+.innerContent {
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  color: gray;
+  display: flex;
+  font-size: 13px;
+  margin-top: 20px;
+}
+.position {
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-weight: 700;
+}
+.leftSide {
+  width: 30%;
+}
+
+.rightSide {
+  width: 70%;
+  margin-left: 20px;
+  border-left: 5px solid $lightGray;
+  padding-left: 10px;
+}
+.companyName {
+  text-transform: uppercase;
+  font-weight: 700;
+}

@@ -12,19 +12,19 @@ function CPPersonalInfo() {
           type="text"
           placeholder="დაბადების თარიღი"
           onChange={(e) => dispatch(addBDay(e.target.value))}
-          maxlength="15"
+          maxLength="15"
         />
         <input
           type="text"
           placeholder="მოქალაქეობა"
           onChange={(e) => dispatch(addNationality(e.target.value))}
-          maxlength="30"
+          maxLength="30"
         />
         <input
           type="text"
           placeholder="ენები"
           onChange={(e) => dispatch(addLangs(e.target.value))}
-          maxlength="60"
+          maxLength="60"
         />
       </div>
     </>

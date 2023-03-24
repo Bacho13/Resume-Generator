@@ -13,19 +13,19 @@ function CPContactSection() {
           type="text"
           placeholder="მობილურის ნომერი"
           onChange={(e) => dispatch(addPhone(e.target.value))}
-          maxlength="15"
+          maxLength="15"
         />
         <input
           type="text"
           placeholder="მაილი"
           onChange={(e) => dispatch(addEmail(e.target.value))}
-          maxlength="30"
+          maxLength="30"
         />
         <input
           type="text"
           placeholder="მისამართი"
           onChange={(e) => dispatch(addAddress(e.target.value))}
-          maxlength="60"
+          maxLength="60"
         />
       </div>
     </>

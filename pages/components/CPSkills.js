@@ -22,34 +22,43 @@ function CPSkills() {
   return (
     <>
       <div className={styles.main}>
+        <p>უნარების ველი</p>
         <form onSubmit={addSkill}>
           <div className={styles.skill}>
             <input
               value={skill}
               type="text"
-              className=""
+              style={{ width: "350px" }}
+              maxLength={20}
               placeholder="ჩაწერე რა უნარს ფლობ"
               onChange={(e) => {
                 setSkill(e.target.value);
               }}
             />
             <input
+              style={{ width: "350px" }}
+              maxLength={3}
               value={level}
+              className="forWrite"
               type="number"
               min="0"
               max="100"
-              style={{ width: "150px" }}
               placeholder="100დან რამდენ ქულაზე ფლობ ამ უნარს"
               onChange={(e) => {
                 setLevel(e.target.value);
               }}
             />
-            <button type="submit">ახალი ველის დამატება</button>
+            <button
+              type="submit"
+              // disabled={skill == "" || level == "" || skills.length >= 8}
+            >
+              დამატება
+            </button>
           </div>
           {skills.map((item, index) => (
             <div key={index}>
-              <input type="text" value={item.skill} />
-              <input type="text" value={item.level} />
+              <input type="text" value={item.skill} readOnly />
+              <input type="text" value={item.level} readOnly />
               <button
                 type="button"
                 onClick={() => {

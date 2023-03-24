@@ -14,6 +14,8 @@ const initialState = {
   nationality: "",
   langs: "",
   skills: [],
+  exps: [],
+  edus: [],
 };
 
 export const infoSlice = createSlice({
@@ -68,6 +70,26 @@ export const infoSlice = createSlice({
         (skill) => skill.id !== action.payload
       );
     },
+    addExp: (state, action) => {
+      if (state.exps.length > 0) {
+        state.exps = [...state.exps, action.payload];
+      } else {
+        state.exps = [action.payload];
+      }
+    },
+    deletExp: (state, action) => {
+      state.exps.pop();
+    },
+    addEdu: (state, action) => {
+      if (state.edus.length > 0) {
+        state.edus = [...state.edus, action.payload];
+      } else {
+        state.edus = [action.payload];
+      }
+    },
+    deletEdu: (state, action) => {
+      state.edus.pop();
+    },
   },
 });
 
@@ -86,6 +108,10 @@ export const {
   addLangs,
   addSkills,
   deletSkill,
+  addExp,
+  deletExp,
+  addEdu,
+  deletEdu,
 } = infoSlice.actions;
 
 export default infoSlice.reducer;

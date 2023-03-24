@@ -8,11 +8,14 @@ import CPAbout from "./CPAbout";
 import CPContactSection from "./CPContactSection.js";
 import CPPersonalInfo from "./CPPersonalInfo";
 import CPSkills from "./CPSkills";
+import CPMainContentExp from "./CPMainContentExp";
+import CPMainContentEdu from "./CPMainContentEdu";
 
 const AdminPanel = () => {
   const [photo, setPhoto] = useState(null);
   const [uploaded, setuploaded] = useState(null);
   const Photo = useSelector((state) => state.info.photo);
+
   const dispatch = useDispatch();
 
   const handlePhotoChange = (event) => {
@@ -55,6 +58,8 @@ const AdminPanel = () => {
       <CPContactSection />
       <CPPersonalInfo />
       <CPSkills />
+      <CPMainContentExp />
+      <CPMainContentEdu />
     </div>
   );
 };
