@@ -34,8 +34,8 @@ function cv() {
             <div className={styles.rightSide}>
               <NameAndeProf />
               <About />
-              <MainContent eduOrExpo={exp} />
-              <MainContent eduOrExpo={edu} />
+              <MainContent eduOrExpo={exp} header={"გამოცდილება"} />
+              <MainContent eduOrExpo={edu} header={"განათლება"} />
             </div>
           </div>
         </div>

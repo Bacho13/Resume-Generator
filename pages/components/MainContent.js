@@ -2,12 +2,15 @@ import React from "react";
 import { useSelector } from "react-redux";
 import styles from "../../styles/components/MainContent.module.scss";
 
-function MainContent({ eduOrExpo }) {
+function MainContent({ eduOrExpo, header }) {
+  const section = eduOrExpo;
+  console.log(section);
+
   return (
     <>
       <div className={styles.main}>
         <div className={styles.header}>
-          <p>{eduOrExpo == "edu" ? "განათლება" : "გამოცდილება"}</p>
+          <p>{header}</p>
           <div className={styles.dotDecor}></div>
         </div>
 
