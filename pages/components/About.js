@@ -7,7 +7,7 @@ function About() {
   return (
     <>
       <div className={styles.main}>
-        <h1>ABOUT</h1>
+        <h1>მოკლედ ჩემს შესახებ</h1>
         <p>{about}</p>
       </div>
     </>

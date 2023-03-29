@@ -13,7 +13,7 @@ function ContactSection() {
   return (
     <>
       <div className={styles.main}>
-        <h1>contact</h1>
+        <h1>საკონტაქტო ინფორმაცია</h1>
         <div className={styles.innerContent}>
           <div className={styles.icon}>
             <LocalPhoneIcon />

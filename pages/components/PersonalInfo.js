@@ -9,7 +9,7 @@ function PersonalInfo() {
   return (
     <>
       <div className={styles.main}>
-        <h1>personal</h1>
+        <h1>პერსონალური ინფორმაცია</h1>
         <div className={styles.innerContent}>
           <p>დაბადების თარიღი : </p>
 
